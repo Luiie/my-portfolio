@@ -1,8 +1,9 @@
+@import "github-markdown-css/github-markdown.css";
+@import "prismjs/themes/prism.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "github-markdown-css/github-markdown.css";
-@import "prismjs/themes/prism.css";
 
 html, body {
   width: 100%;
