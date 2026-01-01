@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "github-markdown-css/github-markdown.css";
+@import "prismjs/themes/prism.css";
 
 html, body {
   width: 100%;
@@ -46,6 +48,10 @@ html, body {
   );
   animation: text-scan 3.5s infinite;
   pointer-events: none;
+}
+
+.markdown-body {
+  background-color: transparent;
 }
 
 @keyframes text-scan {
